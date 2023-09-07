@@ -28,7 +28,7 @@ const Archive = (props)=> {
         <div className="App">
             {
                 list.length > 0 ?
-                <table border="1">
+                <table class="table table-hover">
                     <thead>
                         <tr>
                             <th>Item Name</th>

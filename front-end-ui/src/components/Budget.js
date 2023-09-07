@@ -30,14 +30,14 @@ const Budget = (props) => {
                     {
                         <div>
                             <Form handleEdit = {handleEdit} />
-                            <button onClick={handleEdit}> Cancel</button>
+                            <button onClick={handleEdit}> Cancel</button><br/>
                         </div>
                     }
                 </div>
             : 
                 <div>
                     <h1>Budget : {budget.amount}</h1>
-                    <button onClick={handleEdit}>Edit</button>
+                    <button onClick={handleEdit}>Edit</button><br/>
                 </div>
             }    
         </div>

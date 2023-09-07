@@ -129,10 +129,10 @@ const AddProfile = (props) => {
                     <input type="submit" />
                 </form>
             </Modal>
-            <h3><button
+            <br/><h3><button
                 onClick={showModal}
             >Edit</button>
-            </h3>
+            </h3><br/>
             {
                 profileList.name  &&
                 <div>

@@ -74,15 +74,15 @@ const ExpenseChart = (props) => {
                 <div>
                     <Chart className="expense"
                         chartType="PieChart"
-                        width="70%"
-                        height="300px"
+                        width={"30%"}
+                        height={"200px"}
                         data={data}
                         options={options}
                     />
                     <Chart className="chart"
                         chartType="PieChart"
-                        width="70%"
-                        height="300px"
+                        width={"30%"}
+                        height={"200px"}
                         data={data1}
                         options={options1}
                     />

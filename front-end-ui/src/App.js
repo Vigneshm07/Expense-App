@@ -1,5 +1,6 @@
 import React, { useState , useEffect } from "react"
 import NavBar from "./components/NavBar"
+import "./App.css"
 
 const App = (props) => {
   const [loggedIn , setLoggedIn] = useState(false)
@@ -15,7 +16,7 @@ const App = (props) => {
   },[])
 
   return(
-    <div className="bg">
+    <div className="App">
       < NavBar loggedIn={loggedIn} handleAuth={handleAuth}/>
     </div>
   )

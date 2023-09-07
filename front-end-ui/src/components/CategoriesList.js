@@ -43,13 +43,13 @@ const CategoriesList = () => {
             {
                 list.length > 0 && <h1>Categories List - {list.length}</h1>
             }
-            
+            <br/>
                 {
                     list.length > 0 && list.map((ele)=>{
                         return ( <div>
-                            <h3 key={ele._id}>{ele.name} <button onClick={()=>{
+                            <h4 key={ele._id}>{ele.name} <button onClick={()=>{
                                 removeList(ele._id)
-                            }}>X</button></h3>
+                            }}>X</button></h4>
                         </div>)
                         
                     })

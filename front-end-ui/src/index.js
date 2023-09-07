@@ -8,6 +8,8 @@ import { startAccountUser } from './actions/usersAction'
 import { startListCategory } from './actions/categoryAction'
 import { startListExpense } from './actions/expenseAction'
 import { startBudgetUser } from './actions/budgetAction'
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min"
 
 const store = configureStore()
 console.log(store)
